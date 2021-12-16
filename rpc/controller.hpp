@@ -8,7 +8,7 @@
 namespace rpc {
 namespace controller {
 
-constexpr k2o::keyring keyring{k2o::flist<controller_report_measures>, upd::little_endian, upd::two_complement};
+constexpr k2o::keyring keyring{k2o::flist<controller_report_measure>, upd::little_endian, upd::two_complement};
 
 } // namespace controller
 } // namespace rpc
