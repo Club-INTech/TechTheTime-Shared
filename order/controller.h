@@ -4,7 +4,7 @@
 extern "C" {
 #endif // __cplusplus
 
-void controller_report_measure(uint16_t, uint16_t, uint16_t);
+void controller_report_measure(uint32_t, uint32_t, uint32_t);
 
 #ifdef __cplusplus
 } //extern "C"
