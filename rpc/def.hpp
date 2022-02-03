@@ -4,7 +4,7 @@
 
 namespace rpc {
 
-uint8_t header[] = {0xff,0xff,0xff};
+inline uint8_t header[] = {0xff,0xff,0xff};
 
 enum : uint8_t {
 	REQUEST = 0,
