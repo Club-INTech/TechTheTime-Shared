@@ -12,6 +12,7 @@ namespace master {
 constexpr k2o::keyring keyring{
 	k2o::flist<
 		Motion_Set_Forward_Translation_Setpoint,
+		Motion_Release,
 		Hub_Set_Mode
 	>,
 	upd::little_endian,

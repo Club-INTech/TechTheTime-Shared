@@ -1,10 +1,12 @@
 #pragma once
 
+#include "type.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif // __cplusplus
 
-void controller_report_measure(uint32_t, uint32_t, uint32_t);
+void Controller_Report_Measure(Shared_Timestamp, Shared_Tick, Shared_Tick);
 
 #ifdef __cplusplus
 } //extern "C"

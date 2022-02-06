@@ -4,11 +4,11 @@
 
 namespace rpc {
 
-inline uint8_t header[] = {0xff,0xff,0xff};
+inline uint8_t header[] = {0xff, 0xff, 0xff};
 
-enum : uint8_t {
-	REQUEST = 0,
-	RESPONSE = 1
+enum class Frame_Type: uint8_t {
+	REQUEST,
+	RESPONSE
 };
 
 };
