@@ -19,6 +19,7 @@ constexpr k2o::keyring keyring{
     Motion_Set_Rotation_PID,
     Motion_Set_Left_PID,
     Motion_Set_Right_PID,
+    Motion_Joystick,
 		Motion_Release,
 		Hub_Set_Mode
 	>,

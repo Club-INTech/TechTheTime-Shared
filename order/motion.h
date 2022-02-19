@@ -16,6 +16,7 @@ void Motion_Set_Translation_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
 void Motion_Set_Rotation_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
 void Motion_Set_Left_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
 void Motion_Set_Right_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
+void Motion_Joystick(Shared_PWM, Shared_Tick);
 void Motion_Release(void);
 
 #ifdef __cplusplus
