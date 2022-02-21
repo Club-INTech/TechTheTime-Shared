@@ -15,13 +15,13 @@ constexpr k2o::keyring keyring{
     Motion_Set_Backward_Translation_Setpoint,
     Motion_Set_Clockwise_Rotation_Setpoint,
     Motion_Set_Counterclockwise_Rotation_Setpoint,
+    Motion_Set_Joystick,
     Motion_Set_Translation_PID,
     Motion_Set_Rotation_PID,
     Motion_Set_Left_PID,
     Motion_Set_Right_PID,
-    Motion_Joystick,
-		Motion_Release,
-		Hub_Set_Mode
+	Motion_Release,
+	Hub_Set_Mode
 	>,
 	upd::little_endian,
 	upd::two_complement
