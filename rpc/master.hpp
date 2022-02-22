@@ -22,6 +22,7 @@ constexpr k2o::keyring keyring{
     Motion_Set_Left_PID,
     Motion_Set_Right_PID,
 	Motion_Release,
+  Motion_Set_Free_Movement,
 	Hub_Set_Mode
 	>,
 	upd::little_endian,
