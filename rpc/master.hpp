@@ -15,6 +15,7 @@ constexpr k2o::keyring keyring{
     Motion_Set_Backward_Translation_Setpoint,
     Motion_Set_Clockwise_Rotation_Setpoint,
     Motion_Set_Counterclockwise_Rotation_Setpoint,
+	Motion_Start_Joystick,
     Motion_Set_Joystick,
     Motion_Set_Translation_PID,
     Motion_Set_Rotation_PID,
