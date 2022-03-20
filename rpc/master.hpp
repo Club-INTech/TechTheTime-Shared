@@ -15,15 +15,17 @@ constexpr k2o::keyring keyring{
     Motion_Set_Backward_Translation_Setpoint,
     Motion_Set_Clockwise_Rotation_Setpoint,
     Motion_Set_Counterclockwise_Rotation_Setpoint,
-	Motion_Start_Joystick,
+	  Motion_Start_Joystick,
     Motion_Set_Joystick,
     Motion_Set_Translation_PID,
     Motion_Set_Rotation_PID,
     Motion_Set_Left_PID,
     Motion_Set_Right_PID,
-	Motion_Release,
-  Motion_Set_Free_Movement,
-	Hub_Set_Mode
+	  Motion_Release,
+    Motion_Set_Free_Movement,
+  	Hub_Set_Mode,
+    Get_Left_Ticks,
+    Get_Right_Ticks
 	>,
 	upd::little_endian,
 	upd::two_complement
