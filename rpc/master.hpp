@@ -24,7 +24,7 @@ constexpr k2o::keyring keyring{
 	  Motion_Release,
     Motion_Set_Free_Movement,
   	Hub_Set_Mode,
-    Get_Ticks,
+    Get_Ticks
 	>,
 	upd::little_endian,
 	upd::two_complement
