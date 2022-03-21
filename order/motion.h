@@ -20,8 +20,7 @@ void Motion_Set_Left_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
 void Motion_Set_Right_PID(Shared_PID_K, Shared_PID_K, Shared_PID_K);
 void Motion_Set_Free_Movement(Shared_PWM);
 void Motion_Release(void);
-Shared_Tick Get_Left_Ticks(void);
-Shared_Tick Get_Right_Ticks(void);
+int64_t GetTicks(void);
 
 #ifdef __cplusplus
 } //extern "C"
