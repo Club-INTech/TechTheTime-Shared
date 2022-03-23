@@ -1,7 +1,5 @@
 #pragma once
 
-#include <cstdint>
-
 typedef int32_t Shared_Tick;
 typedef int32_t Shared_PWM;
 typedef uint64_t Shared_PID_K;
