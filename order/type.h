@@ -1,9 +1,12 @@
 #pragma once
 
+#include <cstdint>
+
 typedef int32_t Shared_Tick;
 typedef int32_t Shared_PWM;
 typedef uint64_t Shared_PID_K;
 typedef uint32_t Shared_Timestamp;
+typedef uint64_t Shared_Encoded_Ticks;
 
 typedef uint8_t Shared_Hub_Mode;
 static const Shared_Hub_Mode SHARED_HUB_MODE_BASE = 0;
