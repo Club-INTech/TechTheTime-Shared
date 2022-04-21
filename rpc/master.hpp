@@ -6,6 +6,7 @@
 #include <order/hub.h>
 #include <order/motion.h>
 #include <order/dxl.h>
+#include <order/actuator.h>
 
 namespace rpc {
 namespace master {
@@ -24,9 +25,13 @@ constexpr k2o::keyring keyring{
     Motion_Set_Right_PID,
 	  Motion_Release,
     Motion_Set_Free_Movement,
-	  Hub_Set_Mode,
     DXL_Position,
-    DXL_Position_Angle
+    DXL_Position_Angle,
+  	Hub_Set_Mode,
+    Get_Ticks,
+    Get_Left_Ticks,
+    Get_Right_Ticks,
+	isJumperOn
 	>,
 	upd::little_endian,
 	upd::two_complement
