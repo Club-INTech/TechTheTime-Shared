@@ -6,6 +6,7 @@
 #include <order/hub.h>
 #include <order/motion.h>
 #include <order/actuator.h>
+#include <order/Resistance.h>
 namespace rpc {
 namespace master {
 
@@ -27,7 +28,8 @@ constexpr k2o::keyring keyring{
     Get_Ticks,
     Get_Left_Ticks,
     Get_Right_Ticks,
-	isJumperOn
+	isJumperOn,
+	giveRes
 	>,
 	upd::little_endian,
 	upd::two_complement
