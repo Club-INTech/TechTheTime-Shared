@@ -5,7 +5,7 @@
 
 #include <order/hub.h>
 #include <order/motion.h>
-
+#include <order/actuator.h>
 namespace rpc {
 namespace master {
 
@@ -26,7 +26,8 @@ constexpr k2o::keyring keyring{
   	Hub_Set_Mode,
     Get_Ticks,
     Get_Left_Ticks,
-    Get_Right_Ticks
+    Get_Right_Ticks,
+	isJumperOn
 	>,
 	upd::little_endian,
 	upd::two_complement
