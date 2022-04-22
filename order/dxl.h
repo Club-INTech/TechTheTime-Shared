@@ -9,7 +9,7 @@ extern "C" {
 #endif // __cplusplus
 
 void DXL_Position(uint8_t, uint32_t);
-void DXL_Position_Angle(uint8_t, uint32_t);
+void DXL_Position_Angle(uint8_t, int32_t);
 
 #ifdef __cplusplus
 }
