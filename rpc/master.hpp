@@ -8,7 +8,7 @@
 #include <order/dxl.h>
 #include <order/actuator.h>
 #include <order/misc.h>
-
+#include <order/Resistance.h>
 namespace rpc {
 namespace master {
 
@@ -22,7 +22,7 @@ constexpr k2o::keyring keyring { k2o::flist<
 		Motion_Release, Motion_Set_Free_Movement, DXL_Position,
 		DXL_Position_Angle, Hub_Set_Mode, Get_Ticks, Get_Left_Ticks,
 		Get_Right_Ticks, isJumperOn, Misc_Set_Pump, Misc_Set_Valve,
-		Misc_Set_Servo>, upd::little_endian, upd::two_complement };
+		Misc_Set_Servo, giveRes >, upd::little_endian, upd::two_complement};
 
 } // namespace master
 } // namespace rpc
